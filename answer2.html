@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <title> Answer 2</title>        
+	<style>
+	div{
+                border-color: dark cyan;
+                border-radius: 150px;
+                border-style: double;
+                text-shadow: 10px 8px 15px #123456;
+                background-color:#208596;
+                margin: auto;
+                width: 600px;
+                height: 500px;
+                padding: 70px;
+                font-weight: bolder;
+                font-size: 30px;
+            }
+    img {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+    #grad {
+        background-image: linear-gradient(orange,white,green,blue);
+        background-repeat: no-repeat;
+        background-position: 0px;
+        display: block;
+    }
+	</style>
+    </head>
+    <body id="grad"> 
+        <div> 
+    <form action="#" method="get" >
+        <fieldset>
+            <legend>JS Form Function</legend>
+        <label>First Name:</label>
+        <input type="text" name="fname" placeholder="Enter Your Name" maxlength="20" onclick="alert('Please Enter Your First Name!');" required/><br><br>
+        <label>Address:</label>
+            <textarea placeholder="Enter Your Address Here" onmouseover="alert('Please Enter Your Full Address');"></textarea><br><br>
+            <label>Date & Time :</label> <input type="datetime-local" name="datetime-local"/>
+            <br/><br/>
+            <input type="submit" onclick="alert('Thank You for Filling the Form');">
+    </fieldset>
+    </form></div>
+</body>
+</html>
